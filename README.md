@@ -3,9 +3,9 @@
 
 
 ## Getting Started
-<br />
-PARA-ATM is a project undertaken at Arizona State University as part of NASA ULI. It aims to provide a simulation environment to play <br />
-with cross-domain aviation data for analysis and testing. Being open source, PARA-ATM is meant for learning and research with no <br />
+
+PARA-ATM is a project undertaken at Arizona State University as part of NASA ULI. It aims to provide a simulation environment to play 
+with cross-domain aviation data for analysis and testing. Being open source, PARA-ATM is meant for learning and research with no 
 commercial aspects to it. It has been developed under the general guidance of Dr. Yongming Liu from the SEMTE department at ASU.
 
 ## Installation
