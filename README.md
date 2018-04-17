@@ -2,10 +2,11 @@
 
 
 
-**Getting Started**
+## Getting Started
+```
 PARA-ATM is a project undertaken at Arizona State University as part of NASA ULI. It aims to provide a simulation environment to play with cross-domain aviation data for analysis and testing. Being open source, PARA-ATM is meant for learning and research with no commercial aspects to it. It has been developed under the general guidance of Dr. Yongming Liu from the SEMTE department at ASU.
-
-**Installation**
+```
+## Installation
 ```
 As of now, the software can be run on Windows and Unix platforms with minor difference between the two. The steps are as follows:
 1.	Windows:
@@ -29,7 +30,8 @@ f.	Import the database backup “PARA_ATM” into database “postgres”.
 g.	Import project Information_Fusion into any IDE (Eclipse, IntelliJ, etc.).
 h.	Run “LaunchApp.py” under package PARA_ATM.
 ```
-**Application**
+## Application
+```
 On running Application.py, the following window would pop up:
  
 
@@ -50,9 +52,9 @@ Execute Command: The command can be put in the space provided above this button.
 -	NATS_TrajectorySample(): This command demonstrates integration with NATS, and displays output received.
 
 Like these, users can program custom commands, which has the following template:
- 
+``` 
 ![PARA-ATM Commands](https://image.ibb.co/dsJRP7/commandexample.png)
-
+```
 Apply Filters: Aiming to have an all-inclusive platform for data projection and analysis, there are multiple filters that can be toggled based on requirement.
 -	Weather Filter: This filter when activated, adds the weather overlay over the map.
 -	Airports Filter: The Airports filter marks airports across the US with details about the same.
@@ -67,8 +69,8 @@ While working with flight data, it’s always great to have a visualization of h
 
 Documentation and Help:
 Hit this button to open the codebase on GitHub, which also includes this documentation. PARA-ATM is an open-source research project, and we are committed to improving it which would provide maximum learning utility. It is highly encouraged that users report bugs and raise issues on GitHub so that it can be fixed at the earliest. To get in touch with questions or suggestions, please reach out to the team.
-
-# Contributors
+```
+## Contributors
 ```
 The project has been developed under the guidance of ULI PI Dr. Yongming Liu, with student contributors as follows:
 
