@@ -4,31 +4,33 @@
 
 ## Getting Started
 ```
-PARA-ATM is a project undertaken at Arizona State University as part of NASA ULI. It aims to provide a simulation environment to play with cross-domain aviation data for analysis and testing. Being open source, PARA-ATM is meant for learning and research with no commercial aspects to it. It has been developed under the general guidance of Dr. Yongming Liu from the SEMTE department at ASU.
+PARA-ATM is a project undertaken at Arizona State University as part of NASA ULI. It aims to provide a simulation environment to play
+with cross-domain aviation data for analysis and testing. Being open source, PARA-ATM is meant for learning and research with no
+commercial aspects to it. It has been developed under the general guidance of Dr. Yongming Liu from the SEMTE department at ASU.
 ```
 ## Installation
 ```
 As of now, the software can be run on Windows and Unix platforms with minor difference between the two. The steps are as follows:
 1.	Windows:
-a.	Install Python 3.5 from Anaconda here.
-b.	Run the “dependencies.bat”, which will install all necessary Python packages.
-c.	Download and install the latest version of Postgres database from here.
-d.	Create database “postgres”, with user “postgres” and password  ”postgres”.
-e.	Download and install the latest version of PgAdmin from here.
-f.	Import the database backup “PARA_ATM” into database “postgres”.
-g.	Import project Information_Fusion into any IDE (Eclipse, IntelliJ, etc.).
-h.	Run “LaunchApp.py” under package PARA_ATM.
+   a.	Install Python 3.5 from Anaconda here.
+   b.	Run the “dependencies.bat”, which will install all necessary Python packages.
+   c.	Download and install the latest version of Postgres database from here.
+   d.	Create database “paraatm”, with user “paraatm_user” and password  ”paraatm_user”.
+   e.	Download and install the latest version of PgAdmin from here.
+   f.	Import the database backup “PARA_ATM” into database “paraatm”.
+   g.	Import project Information_Fusion into any IDE (Eclipse, IntelliJ, etc.).
+   h.	Run “LaunchApp.py” under package PARA_ATM.
 
 2.	Unix:
-a.	Install Python 3.5 from Anaconda here.
-b.	Run the “dependencies.sh”, which will install all necessary Python packages.
-c.	Download and install the latest version of Postgres database from here.
-d.	Create database “postgres”, with user “postgres” and password ”postgres”.
+   a.	Install Python 3.5 from Anaconda here.
+   b.	Run the “dependencies.sh”, which will install all necessary Python packages.
+   c.	Download and install the latest version of Postgres database from here.
+   d.	Create database “paraatm”, with user “paraatm_user” and password ”paraatm_user”.
 
-e.	Download and install the latest version of PgAdmin from here.
-f.	Import the database backup “PARA_ATM” into database “postgres”.
-g.	Import project Information_Fusion into any IDE (Eclipse, IntelliJ, etc.).
-h.	Run “LaunchApp.py” under package PARA_ATM.
+   e.	Download and install the latest version of PgAdmin from here.
+   f.	Import the database backup “PARA_ATM” into database “paraatm”.
+   g.	Import project Information_Fusion into any IDE (Eclipse, IntelliJ, etc.).
+   h.	Run “LaunchApp.py” under package PARA_ATM.
 ```
 ## Application
 ```
